@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: azure;
-  margin-top: 20%;
+  margin-top: 5%;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #3333a9, #1f1956);
@@ -74,4 +74,12 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   padding: 7px;
   margin-bottom: 1em;
+}
+
+img {
+  margin-top: 1em;
+  background-color: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 1em;
+  border-radius: 5%;
 }
