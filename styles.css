@@ -1,0 +1,77 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #3333a9, #1f1956);
+  height: 100vh;
+}
+
+.start-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: rgb(142, 218, 243);
+}
+
+.pointers {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pointers:hover {
+  background-color: rgb(142, 218, 243);
+}
+
+.category-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.category-button:hover {
+  background-color: rgb(142, 218, 243);
+}
+
+.rounded-image {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 30%;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  padding: 7px;
+  margin-bottom: 1em;
+}
