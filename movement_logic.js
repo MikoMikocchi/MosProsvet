@@ -50,6 +50,15 @@ document.getElementById("next-button").onclick = function () {
   updatePointsList(currentCategoryPoints);
 };
 
+// Кнопка Рандом
+document.getElementById("random-button").onclick = function () {
+  // Генерация случайного индекса для текущей категории
+  currentIndex = Math.floor(Math.random() * currentCategoryPoints.length);
+
+  // Обновляем отображение точки
+  updatePointsList(currentCategoryPoints);
+};
+
 // Возвращение обратно. Результаты скрываются и появляется меню выбора.
 document.getElementById("back-button").onclick = function () {
   document.getElementById("result").style.display = "none";
@@ -63,7 +72,7 @@ function updatePointsList(points) {
   // Добавление текущей точки с картинкой
   const currentPoint = points[currentIndex];
   const listItem = document.createElement("li");
-  listItem.textContent = `${currentPoint.name} - ${currentPoint.description}`;
+  listItem.textContent = `${currentPoint.name} - ${currentPoint.description}. Место расположено по адресу: ${currentPoint.address}`;
   pointsList.appendChild(listItem);
 
   const img = document.createElement("img");
